@@ -15,8 +15,37 @@
   git add 文件名 
   通常使用全部添加
   git add -A   -A 表示all的意思 所有(git add *)
+- 提交文件到本地仓库（自己电脑）
+  git commit -m'第一次提交'  -m通常表示你此次提交内容的备注
+- 添加远程仓库  
+  git remote add  
+  origin 仓库名  
+  https://github.com/ruanye/1808B.git 仓库地址
+  git remote add origin https://github.com/ruanye/1808B.git
+ - 查看远程仓库地址 
+   git remote -v 
+ - 推送代码到远程仓库  
+   git push origin master 
 
+- 同一个仓库/项目
+如果是第一次提交
+git init 
+git add -A 
+git commit -m'你的注释'
+git remote add 仓库地址 添加远程仓库(第一次提交时候使用)
+git push origin master 
+如果有修改 第二、第三.....第n次
+1. git add -A 
+2. git commit -m'注释'
+3. git push origin master 
 
+   
+ 
+1. git init
+2. git add -A 
+3. git commit -m "VUE"
+4. git remote add origin https://github.com/ruanye/1808vue.git
+5. git push -u origin master
   
 
  

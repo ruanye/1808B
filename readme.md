@@ -1,7 +1,8 @@
-##node 的基础知识
+## node 的基础知识
+
 nodejs 后端语言 java/php 等价 单线程/异步，无阻塞 i/o
 
-###node 的几个核心模块
+### node 的几个核心模块
 
 1. http 模块 创建服务器
    新建文件 app.js
@@ -9,7 +10,7 @@ nodejs 后端语言 java/php 等价 单线程/异步，无阻塞 i/o
 3. path 模块 解析路径 path.join path.resolve
 4. fs filesystem 文件处理 读写文件
 
-###node 的启动方式
+### node 的启动方式
 
 1. vscode 插件 code runner
 2. node + 文件名
@@ -32,4 +33,3 @@ yezui 12345678
   touch 建立文件
   mkdir 新建文件夹
   cd 进入文件路径
-  window dir/mac ls 文件目录列表
