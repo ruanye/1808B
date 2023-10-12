@@ -12,3 +12,4 @@ fsPromise.writeFile("./a.txt", "1235678", "utf-8").then(data => {
 });
 
 //读取 json 转对象  数组 push 放新的数据 写入文件
+多大了解劳动纪律就到了
